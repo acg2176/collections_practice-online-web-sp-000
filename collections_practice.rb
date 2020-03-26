@@ -18,5 +18,13 @@ def swap_elements(array)
   array[1] = array[2]
   array[2] = temp
   array
+end
 
+def reverse_array(array)
+  new = []
+  array.each do |x|
+    x = array.pop
+    new << x
+  end
+  new
 end
