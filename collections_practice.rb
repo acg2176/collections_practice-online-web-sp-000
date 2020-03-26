@@ -24,6 +24,7 @@ def reverse_array(array)
   new = []
   array.each do |x|
     x = array.pop
+    puts x
     new << x
 
 
