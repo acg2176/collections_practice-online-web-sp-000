@@ -21,10 +21,5 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
-  new = []
-  range = (array.length-1..-1)
-  range.each do |i|
-    new << array[i]
-  end
-  new
+  array.reverse
 end
