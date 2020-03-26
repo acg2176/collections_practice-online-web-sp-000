@@ -26,8 +26,6 @@ def reverse_array(array)
     x = array.pop
     puts x
     new << x
-
-
   end
-  #new
+  new
 end
