@@ -22,10 +22,9 @@ end
 
 def reverse_array(array)
   new = []
-  array.each do |x|
-    x = array.pop
-    puts x
-    new << x
+  range = (array.length-1..-1)
+  range.each do |i|
+    new << array[i]
   end
   new
 end
